@@ -16,6 +16,8 @@ _ = int.TryParse(Console.ReadLine(), out int X);
 Console.Write("Ingresa un valor para Y: ");
 _ = int.TryParse(Console.ReadLine(), out int Y);
 
+Console.WriteLine();
+
 // Condición 1: si X es menor que Y, mostrarlo en pantalla
 
 if(X < Y)

@@ -12,3 +12,8 @@ C:\Programación\I\PRÁCTICAS\PJpracticas\obj\Debug\net7.0\refint\PJpracticas.dl
 C:\Programación\I\PRÁCTICAS\PJpracticas\obj\Debug\net7.0\PJpracticas.pdb
 C:\Programación\I\PRÁCTICAS\PJpracticas\obj\Debug\net7.0\PJpracticas.genruntimeconfig.cache
 C:\Programación\I\PRÁCTICAS\PJpracticas\obj\Debug\net7.0\ref\PJpracticas.dll
+C:\Programación\I\PRÁCTICAS\PJpracticas\Programa\net7.0\PJpracticas.exe
+C:\Programación\I\PRÁCTICAS\PJpracticas\Programa\net7.0\PJpracticas.deps.json
+C:\Programación\I\PRÁCTICAS\PJpracticas\Programa\net7.0\PJpracticas.runtimeconfig.json
+C:\Programación\I\PRÁCTICAS\PJpracticas\Programa\net7.0\PJpracticas.dll
+C:\Programación\I\PRÁCTICAS\PJpracticas\Programa\net7.0\PJpracticas.pdb

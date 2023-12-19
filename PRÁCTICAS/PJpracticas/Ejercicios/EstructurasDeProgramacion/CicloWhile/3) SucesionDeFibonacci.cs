@@ -28,8 +28,11 @@ Console.Write($", {siguiente}");
 
 a = b;
 b = siguiente;
+
+terminosGenerados++;
 }
 
+Console.WriteLine();
 }
 
 }

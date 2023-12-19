@@ -75,18 +75,16 @@ P2 = LeerNota("P2"); // Leer nota del P2
 notaFinal = (P1 + P2) / 2; // Sacar promedio de las dos notas para la nota final
 condicionMateria = ValidarCondicionDeMateria(notaFinal); // Verificar si el estudiante aprobó o reprobó la materia
 
-Console.Clear();
-
 // Una vez el usuario registra al estudiante, se muestran los datos correspondientes:
+
+Console.Clear();
 
 Console.WriteLine($"<------------- REGISTRO DE NOTAS #{i} de {numEstudiantes} ------------->\n");
 
-Console.WriteLine($"Nombre del estudiante: {nombre}");
-Console.WriteLine($"Apellido del estudiante: {apellido}");
+Console.WriteLine($"Nombre del estudiante: {nombre} {apellido}");
 Console.WriteLine($"Matrícula del estudiante: {matricula}");
 Console.WriteLine($"Nota del P1: {P1:N1}");
 Console.WriteLine($"Nota del P2: {P2:N1}");
-Console.WriteLine($"Nota final: {notaFinal:N1}");
 Console.WriteLine($"Nota final: {notaFinal:N1}");
 Console.WriteLine($"Condición: {condicionMateria}\n");
 

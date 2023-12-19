@@ -144,7 +144,7 @@ Console.WriteLine("<----------- Ejercicios del Ciclo while ---------->\n");
 
 Console.WriteLine("A. Suma mayor que 0");
 Console.WriteLine("B. Mostrar números pares");
-Console.WriteLine("C. Hacer sucesión de Fibonacci");
+Console.WriteLine("C. Sucesión de Fibonacci");
 Console.WriteLine("D. Juego de adivinanza");
 Console.WriteLine("E. Calcular conciliación de clientes\n");
 
@@ -182,7 +182,7 @@ break;
 /// <summary> Sub-menú para los ejercicios del ciclo do-while. </summary>
 private static void SubMenuCicloDoWhile()
 {
-Console.WriteLine("<----------- Ejercicios del Ciclo do-While ---------->\n");
+Console.WriteLine("<----------- Ejercicios del ciclo do-While ---------->\n");
 
 Console.WriteLine("A. Filtrar un número positivo");
 Console.WriteLine("B. Adivinar la clave secreta");
@@ -407,6 +407,8 @@ break;
 public static void Main()
 {
 Console.WriteLine("<----------- Programación I ---------->\n");
+
+Console.Title = "Práctica de Programación";
 
 Console.ForegroundColor = ConsoleColor.Red;
 Console.WriteLine("Práctica final hecha por Francisco Villanueva (1-23-6951).\n");

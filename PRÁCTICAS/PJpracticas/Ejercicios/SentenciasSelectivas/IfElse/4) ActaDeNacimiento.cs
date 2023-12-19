@@ -67,17 +67,16 @@ DateTime fechaNacimiento = DateTime.Now.AddYears(-edad); // Calcular la fecha de
 
 string condicionLegal = VerificarCondicionLegal(edad); // Verificar si la persona es mayor o menor de edad
 
-Console.Clear();
-
 // Una vez se recibe la información del ciudadano, se muestran los datos correspondientes:
+
+Console.Clear();
 
 Console.WriteLine($"<------------- SU ACTA DE NACIMIENTO ------------->\n");
 
 Console.WriteLine($"Cédula: {cedula}");
-Console.WriteLine($"Nombre: {nombre}");
-Console.WriteLine($"Apellido: {apellido}");
+Console.WriteLine($"Nombre: {nombre} {apellido}");
 Console.WriteLine($"Edad: {edad} años");
-Console.WriteLine($"Fecha de nacimiento: {fechaNacimiento}");
+Console.WriteLine($"Fecha de nacimiento: {fechaNacimiento:d}");
 Console.WriteLine($"Condición legal: {condicionLegal}\n");
 }
 

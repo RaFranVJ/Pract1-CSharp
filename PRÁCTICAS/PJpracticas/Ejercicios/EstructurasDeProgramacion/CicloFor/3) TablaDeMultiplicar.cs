@@ -14,7 +14,6 @@ int minMultiplo = 1;
 int maxMultiplo = 12;
 
 Console.Write($"Ingresa un múltiplo entre {minMultiplo} y {maxMultiplo}: ");
-Console.WriteLine();
 
 int multiplo;
 
@@ -23,15 +22,22 @@ int multiplo;
 while(!int.TryParse(Console.ReadLine(), out multiplo) || multiplo < minMultiplo || multiplo > maxMultiplo)
 {
 Console.WriteLine("El valor está fuera del rango permitido.");
-Console.WriteLine($"Rango permitido: {minMultiplo} - {maxMultiplo}");
+Console.WriteLine($"Rango permitido: {minMultiplo} - {maxMultiplo}.\n");
 
 Console.Write("Vuelve a ingresar el valor: ");
+Console.WriteLine();
 }
 
 // Mostrar la tabla del múltiplo introducido por el usuario (mínimo, 1; máximo, 12)
 
 for(int i = minMultiplo; i <= maxMultiplo; i++)
+{
 Console.WriteLine($"{multiplo} x {i} = {multiplo * i}");
+
+if(i == maxMultiplo)
+Console.WriteLine();
+
+}
 
 }
 

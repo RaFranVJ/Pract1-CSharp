@@ -34,6 +34,10 @@ for(int i = rangoMin; i <= rangoMax; i++)
 {
 var infoPlato = opciones.ElementAt(i);
 Console.WriteLine("Opción {0} - {1} .............. RD$ {2}", i, infoPlato.Key, infoPlato.Value);
+
+if(i == rangoMax)
+Console.WriteLine();
+
 }
 
 Console.Write("¿Qué desea ordenar? Escriba el número aquí: ");
@@ -44,9 +48,10 @@ int opcion;
 while(!int.TryParse(Console.ReadLine(), out opcion) || opcion < rangoMin || opcion > rangoMax)
 {
 Console.WriteLine("¡Vaya! Parece que no tenemos eso.");
-Console.WriteLine($"Opciones disponibles: números del {rangoMin} al {rangoMax}");
+Console.WriteLine($"Opciones disponibles: números del {rangoMin} al {rangoMax}.\n");
 
 Console.Write("Elige una opción: ");
+Console.WriteLine();
 }
 
 return opcion;

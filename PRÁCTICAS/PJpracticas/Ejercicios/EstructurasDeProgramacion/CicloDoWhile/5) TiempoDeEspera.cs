@@ -16,10 +16,10 @@ int tiempo = 5;
 
 do
 {
-Console.WriteLine($"Tiempo restante: {tiempo} segundo (s).");
+Console.Write($"\rTiempo restante: {tiempo} segundo (s).");
 Thread.Sleep(1000); // Delay de 1 segundo
 
-tiempo--;;
+tiempo--;
 } 
 
 // Luego, verificar si se agotó el tiempo de espera

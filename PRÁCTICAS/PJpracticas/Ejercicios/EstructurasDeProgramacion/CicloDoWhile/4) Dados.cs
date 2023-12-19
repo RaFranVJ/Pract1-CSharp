@@ -21,6 +21,9 @@ dado1 = azar.Next(1, 7);
 dado2 = azar.Next(1, 7);
 
 Console.WriteLine($"[{dado1}] [{dado2}]");
+
+Console.WriteLine("Presiona una tecla para lanzar los dados nuevamente.");
+Console.ReadKey(true);
 } 
 
 // Luego, verificar si ambos dados son idénticos (osea, si se obtuvo un doble)
